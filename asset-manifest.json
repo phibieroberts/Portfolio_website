@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/http//phibieroberts.github.io/Portfolio_website/static/css/main.ad0888c0.css",
+    "main.js": "/http//phibieroberts.github.io/Portfolio_website/static/js/main.248cb571.js",
+    "index.html": "/http//phibieroberts.github.io/Portfolio_website/index.html",
+    "main.ad0888c0.css.map": "/http//phibieroberts.github.io/Portfolio_website/static/css/main.ad0888c0.css.map",
+    "main.248cb571.js.map": "/http//phibieroberts.github.io/Portfolio_website/static/js/main.248cb571.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad0888c0.css",
+    "static/js/main.248cb571.js"
+  ]
+}
