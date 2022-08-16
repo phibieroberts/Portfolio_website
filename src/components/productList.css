@@ -25,6 +25,13 @@
 .p:hover .p-img {
   transform: translateY(-100%);
 }
+.right {
+  font-size: 10px;
+}
+.view-more a {
+  /* text-decoration: none; */
+  color: #ff006e;
+}
 
 @media screen and (max-width: 480px) {
   .pl {

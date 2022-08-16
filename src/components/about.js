@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./about.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import mypics from "../images/mypics.jpg";
 function About() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -13,7 +14,7 @@ function About() {
         <div className="about-card bg" data-aos="fade-up"></div>
         <div className="about-card">
           <img
-            src="../images/mypics.jpg"
+            src={mypics}
             className="about-img"
             alt="Phoebe Roberts"
             data-aos="fade-down"

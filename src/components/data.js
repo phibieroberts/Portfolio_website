@@ -1,35 +1,42 @@
+import screenshot from "../images/screenshot.png";
+import screenshot1 from "../images/screenshot4.png";
+import screenshot2 from "../images/screenshot2.png";
+import screenshot3 from "../images/screenshot3.png";
+import screenshot4 from "../images/screenshot4.png";
+import screenshot5 from "../images/screenshot5.png";
+
 export const products = [
   {
     id: 1,
-    img: "../images/screenshot.png",
+    img: screenshot3,
     link: "https://phoebe-bookmark.netlify.app/",
   },
   {
     id: 2,
-    img: "../images/screenshot6.png",
+    img: screenshot2,
     link: "https://phoebe-bookmark.netlify.app/",
   },
   {
     id: 3,
-    img: "../images/screenshot3.png",
+    img: screenshot4,
     link: "https://phoebe-bookmark.netlify.app/",
   },
 
   {
     id: 4,
-    img: "../images/screenshot7.png",
+    img: screenshot4,
     link: "https://phoebe-bookmark.netlify.app/",
   },
 
   {
     id: 5,
-    img: "../images/screenshot5.png",
+    img: screenshot,
     link: "https://phoebe-bookmark.netlify.app/",
   },
 
   {
     id: 6,
-    img: "../images/screenshot.png",
+    img: screenshot5,
     link: "https://phoebe-bookmark.netlify.app/",
   },
 ];

@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import "./productList.css";
+import { FaArrowRight } from "react-icons/fa";
+
 import Product from "./product";
 import { products } from "./data";
 import Aos from "aos";
@@ -30,6 +32,12 @@ function ProductList() {
             data-aos="zoom-out"
           />
         ))}
+      </div>
+      <div className="view-more">
+        <a href="https://github.com/phibieroberts">
+          {" "}
+          View more on Github <FaArrowRight className="right" />
+        </a>
       </div>
     </div>
   );
