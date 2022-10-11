@@ -23,3 +23,10 @@
   position: absolute;
   cursor: pointer;
 }
+@media screen and (max-width: 480px) {
+  .toggle {
+    position: fixed;
+    top: 10px;
+    margin: 0rem;
+  }
+}

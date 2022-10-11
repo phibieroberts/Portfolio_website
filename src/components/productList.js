@@ -12,25 +12,16 @@ function ProductList() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className="pl">
-      <div className="pl-texts">
-        <h1 className="pl-title" data-aos="zoom-out">
-          Create & inspire. it's Phoebe
-        </h1>
-        <p className="pl-desc" data-aos="fade-up">
-          Phoebe is a creative portfolio that your work has been waiting for
-          beautiful touch, stunning designs and creative portfolio styles and a
-          lot more
-        </p>
-      </div>
-      <div className="pl-list" data-aos="zoom-out">
+    <section className="project">
+      <h1 data-aos="zoom-out">Create & inspire. it's Phoebe</h1>
+      <p>
+        Phoebe is a creative portfolio that your work has been waiting for
+        beautiful touch, stunning designs and creative portfolio styles and a
+        lot more
+      </p>
+      <div className="project-list">
         {products.map((item) => (
-          <Product
-            key={item.id}
-            link={item.link}
-            img={item.img}
-            data-aos="zoom-out"
-          />
+          <Product key={item.id} link={item.link} img={item.img} />
         ))}
       </div>
       <div className="view-more">
@@ -39,7 +30,7 @@ function ProductList() {
           View more on Github <FaArrowRight className="right" />
         </a>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./product.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function Product({ link, img }) {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
-    <div className="p">
+    <div className="product" data-aos="zoom-in">
       <div className="browser">
         <div className="circle red"></div>
         <div className="circle yellow"></div>

@@ -46,14 +46,28 @@ function Contact() {
             Let's discuss your project
           </h1>
           <div className="c-info">
-            <div className="info-item" data-aos="fade-up">
+            <a
+              href="tel:+2347039748074"
+              className="info-item"
+              data-aos="fade-up"
+              style={{
+                color: darkMode ? "white" : "black",
+              }}
+            >
               <FaPhone className="icon contact-icon" />
               +2347039748074
-            </div>
-            <div className="info-item" data-aos="fade-left">
+            </a>
+            <a
+              href="mailto:obajephoebe@gmail.com"
+              className="info-item"
+              data-aos="fade-down"
+              style={{
+                color: darkMode ? "white" : "black",
+              }}
+            >
               <FaEnvelope className="icon contact-icon" />
               <p> obajephoebe@gmail.com</p>
-            </div>
+            </a>
             <div className="info-item" data-aos="fade-down">
               <FaMapSigns className=" icon contact-icon" />
               Nigeria Customs Service, Bauchi State

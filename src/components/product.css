@@ -1,13 +1,11 @@
-.p {
-  width: 30%;
-  height: 40vh;
-  margin: 20px 10px;
+.product {
+  height: 300px;
+  width: 100%;
   border: 2px solid rgb(243, 242, 242);
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
 }
-
 .browser {
   height: 20px;
   background: #b7b7a4;
@@ -32,9 +30,22 @@
 .green {
   background: green;
 }
+
+/* .p {
+  width: 30%;
+  height: 40vh;
+  margin: 20px 10px;
+  border: 2px solid rgb(243, 242, 242);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+
+
 @media screen and (max-width: 480px) {
   .p {
     width: 40%;
     height: 20vh;
   }
-}
+} */

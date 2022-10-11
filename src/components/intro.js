@@ -1,6 +1,8 @@
 import React from "react";
 import "./intro.css";
-import ParticlesBackground from "./particlesBackground";
+import { useContext } from "react";
+import { ThemeContext } from "../context";
+
 import {
   FaFacebook,
   FaGithub,
@@ -10,9 +12,11 @@ import {
 } from "react-icons/fa";
 
 function Intro() {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className="intro">
-      <ParticlesBackground />
       <h3 className="intro-text">
         HELLO THERE <span>I'm</span>
       </h3>
@@ -25,19 +29,55 @@ function Intro() {
       {/* </button> */}
       <div className="social-icons">
         <h3 className="icon">
-          <FaFacebook />
+          <a
+            href="https://web.facebook.com/phoebe.roberts.52090/"
+            style={{
+              color: darkMode ? "white" : "black",
+            }}
+          >
+            <FaFacebook />
+          </a>
         </h3>
         <h3 className="icon">
-          <FaLinkedin />
+          <a
+            href="linkedin.com/in/phoebe-obaje"
+            style={{
+              color: darkMode ? "white" : "black",
+            }}
+          >
+            <FaLinkedin />
+          </a>
         </h3>
         <h3 className="icon">
-          <FaTwitter />
+          <a
+            href="https://twitter.com/Phoebe_Roberts_"
+            style={{
+              color: darkMode ? "white" : "black",
+            }}
+          >
+            <FaTwitter />
+          </a>
+        </h3>
+
+        <h3 className="icon">
+          <a
+            href="https://www.instagram.com/devphoebe/"
+            style={{
+              color: darkMode ? "white" : "black",
+            }}
+          >
+            <FaInstagram />{" "}
+          </a>
         </h3>
         <h3 className="icon">
-          <FaInstagram />{" "}
-        </h3>
-        <h3 className="icon">
-          <FaGithub />
+          <a
+            href="https://github.com/phibieroberts/phibieroberts"
+            style={{
+              color: darkMode ? "white" : "black",
+            }}
+          >
+            <FaGithub />
+          </a>
         </h3>
       </div>
     </div>

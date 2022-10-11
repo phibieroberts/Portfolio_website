@@ -40,28 +40,9 @@
   left: 40px;
   background: #333;
 }
-/* .award {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-} */
-/* .award-img {
-  width: 120px;
-  height: 120px;
-  border-radius: 20px;
-  margin-top: 20px;
-}
-.award-text {
-  width: 70%;
-  line-height: 1.4;
-}
-.award-title {
-  color: #555;
-} */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .about {
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
     margin-top: 50px;
     align-items: center;
