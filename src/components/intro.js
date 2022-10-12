@@ -40,7 +40,7 @@ function Intro() {
         </h3>
         <h3 className="icon">
           <a
-            href="linkedin.com/in/phoebe-obaje"
+            href="https://www.linkedin.com/in/phoebe-obaje/"
             style={{
               color: darkMode ? "white" : "black",
             }}
