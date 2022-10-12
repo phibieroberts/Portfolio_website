@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/Portfolio_website/static/css/main.29f4770e.css",
-    "main.js": "/Portfolio_website/static/js/main.5fe6cef1.js",
-    "static/media/screenshot4.png": "/Portfolio_website/static/media/screenshot4.5e856691ea09251043fb.png",
-    "static/media/screenshot2.png": "/Portfolio_website/static/media/screenshot2.270049c079246b9baf35.png",
-    "static/media/screenshot5.png": "/Portfolio_website/static/media/screenshot5.e400d375a7366168d924.png",
+    "main.js": "/Portfolio_website/static/js/main.71c8cf65.js",
+    "static/media/countries-api.png": "/Portfolio_website/static/media/countries-api.5e856691ea09251043fb.png",
+    "static/media/musico.png": "/Portfolio_website/static/media/musico.270049c079246b9baf35.png",
+    "static/media/huddle.png": "/Portfolio_website/static/media/huddle.e400d375a7366168d924.png",
     "static/media/mypics.jpg": "/Portfolio_website/static/media/mypics.5b8fcd1bbedc05f9b6cd.jpg",
-    "static/media/screenshot.png": "/Portfolio_website/static/media/screenshot.075a46ba8f7adffce31b.png",
-    "static/media/screenshot3.png": "/Portfolio_website/static/media/screenshot3.091d87bd7a00a883c518.png",
+    "static/media/portfolio.png": "/Portfolio_website/static/media/portfolio.075a46ba8f7adffce31b.png",
+    "static/media/bookmark.png": "/Portfolio_website/static/media/bookmark.091d87bd7a00a883c518.png",
+    "static/media/recipe-app.png": "/Portfolio_website/static/media/recipe-app.f515d06e3960fed880cc.png",
     "index.html": "/Portfolio_website/index.html",
     "main.29f4770e.css.map": "/Portfolio_website/static/css/main.29f4770e.css.map",
-    "main.5fe6cef1.js.map": "/Portfolio_website/static/js/main.5fe6cef1.js.map"
+    "main.71c8cf65.js.map": "/Portfolio_website/static/js/main.71c8cf65.js.map"
   },
   "entrypoints": [
     "static/css/main.29f4770e.css",
-    "static/js/main.5fe6cef1.js"
+    "static/js/main.71c8cf65.js"
   ]
 }
