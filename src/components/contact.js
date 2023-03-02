@@ -70,7 +70,7 @@ function Contact() {
             </a>
             <div className="info-item" data-aos="fade-down">
               <FaMapSigns className=" icon contact-icon" />
-              Nigeria Customs Service, Bauchi State
+              Airport Road, Lugbe Abuja.
             </div>
           </div>
         </div>
@@ -79,15 +79,16 @@ function Contact() {
             <h1 className="desc-heading" data-aos="fade-up">
               Get In Touch
             </h1>
-            I’m currently looking for new opportunities and inbox is always open
-            for collaborations. Whether you have a question or just want to say
-            hi, I’ll try my best to get back to you!
+            I’m currently looking out for new opportunities and my inbox is
+            always open for collaborations. Whether you have a question or just
+            want to say Hi, I’ll try my best to get back to you!
           </div>
           <form onSubmit={handleSubmit} ref={form}>
             <input
               type="text"
               placeholder="Name"
               name="user_name"
+              required
               style={{
                 backgroundColor: darkMode && "#333",
                 color: darkMode && "white",
@@ -101,6 +102,7 @@ function Contact() {
                 backgroundColor: darkMode && "#333",
                 color: darkMode && "white",
               }}
+              required
             />
             <input
               type="text"
@@ -110,6 +112,7 @@ function Contact() {
                 backgroundColor: darkMode && "#333",
                 color: darkMode && "white",
               }}
+              required
             />
             <textarea
               rows="5"
@@ -119,9 +122,10 @@ function Contact() {
                 backgroundColor: darkMode && "#333",
                 color: darkMode && "white",
               }}
+              required
             />
             <motion.button animate={{}}>Submit</motion.button>
-            {done && "Message Sent"}
+            {done && <h3>Message Sent</h3>}
           </form>
         </div>
       </div>

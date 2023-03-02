@@ -57,12 +57,17 @@
     top: 30px;
     left: 100px;
     background: #333;
+    border-radius: 0%;
   }
 
   .about-card {
     height: 40vh;
   }
-  .about-right {
-    padding: 0px 50px 20px 50px;
+  .about-img {
+    border-radius: 0%;
+  }
+
+  .about-right p {
+    text-align: justify;
   }
 }

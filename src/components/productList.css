@@ -9,9 +9,8 @@
   grid-template-columns: repeat(3, 1fr);
   padding: 2rem 0rem;
 }
-.project h1,
-.project p {
-  width: 65%;
+.project-text {
+  width: 75%;
   margin: 1rem auto;
   text-align: center;
 }
@@ -32,6 +31,15 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  .project-text {
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .project-list p {
+    text-align: justify;
+    padding: 10px;
+  }
+
   .project-list {
     grid-template-columns: 1fr 1fr;
   }

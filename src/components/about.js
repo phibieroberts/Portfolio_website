@@ -33,7 +33,8 @@ function About() {
           internet. My expertise is in the area of Responsive design, with every
           line of code, I strive to make the Web a beautiful place. I am a
           graduate of Computer Science from Federal University Lokoja Kogi
-          state, Nigeria. I am proficient in HTML,CSS,javaScript and ReactJs.
+          state, Nigeria. I am proficient in HTML, CSS, JavaScript and ReactJs.
+          I am Open to Learning and improving my skill sets.
         </p>
       </div>
     </div>

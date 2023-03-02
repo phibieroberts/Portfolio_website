@@ -13,15 +13,23 @@ function ProductList() {
   }, []);
   return (
     <section className="project">
-      <h1 data-aos="zoom-out">Create & inspire. it's Phoebe</h1>
-      <p>
-        Phoebe is a creative portfolio that your work has been waiting for
-        beautiful touch, stunning designs and creative portfolio styles and a
-        lot more
-      </p>
+      <div className="project-text">
+        <h1 data-aos="zoom-out">Create & inspire. it's Phoebe</h1>
+        <p>
+          Over the years I have dedicated my time to learning and improving my
+          skills as a front End developer and i have used tools like Chakra Ui,
+          SPLIDEJS, stripe, Bootsrap e.t.c Here are some of the project I've
+          worked on using HTML,CSS,JavaScript, ReactJs
+        </p>
+      </div>
       <div className="project-list">
         {products.map((item) => (
-          <Product key={item.id} link={item.link} img={item.img} />
+          <Product
+            key={item.id}
+            link={item.link}
+            img={item.img}
+            repository={item.repository}
+          />
         ))}
       </div>
       <div className="view-more">
